@@ -1,0 +1,16 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.social-Linkedin-icon {
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    background: url('social-icons.png') -1px -1px;
+}
+
+.social-Twitter-icon {
+    display: inline-block;
+    width: 33px;
+    height: 28px;
+    background: url('social-icons.png') -1px -31px;
+}

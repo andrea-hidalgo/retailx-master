@@ -1,0 +1,21 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.partner-logo-verizon {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 34px;
+	background: url('partner-logos.png') -1px -1px;
+}
+.partner-logo-Walmart {
+/* You may have to set 'display: block' */
+	width: 147px;
+	height: 36px;
+	background: url('partner-logos.png') -1px -36px;
+}
+.partner-logo-Sears {
+/* You may have to set 'display: block' */
+	width: 121px;
+	height: 32px;
+	background: url('partner-logos.png') -1px -73px;
+}

@@ -1,0 +1,224 @@
+﻿
+@import url("rx-variables");
+/* ==========================================================================
+   section's content 
+   ========================================================================== */
+.rx-section-content {
+    font-size: 20px;
+}
+/* ==========================================================================
+   section's titles 
+   ========================================================================== */
+h1.rx-section-title {
+    font-size: 32px;
+    letter-spacing: 0;
+}
+
+
+/* ==========================================================================
+   header 
+   ========================================================================== */
+.rx-header {
+    padding: 91px @sectionSidePaddingMobile;
+    height: 230px;
+
+    & > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rx-logo {
+        margin-top: 0;
+        margin-bottom: 25px;
+
+        img {
+            margin: 0 auto;
+        }
+    }
+}
+
+
+/* ==========================================================================
+   header  fixed after scroll
+   ========================================================================== */
+.rx-header-fixed {
+    padding: 58px 0 50px;
+}
+
+
+/* ==========================================================================
+   section 1(with video)
+   ========================================================================== */
+.rx-section-1 {
+    video {
+        display: none;
+    }
+
+    .rx-section-content {
+        padding: 0 @sectionSidePaddingMobile;
+    }
+}
+
+/* ==========================================================================
+   section 2
+   ========================================================================== */
+.rx-section-2 {
+    padding: 80px 17px;
+
+    h1.rx-section-title {
+        padding: 0;
+    }
+
+    .rx-section-content {
+        margin-top: 50px;
+        display: inline-block;
+
+        & > div {
+            &:first-child {
+                padding-right: 0;
+
+                p {
+                    padding-bottom: 30px;
+                }
+            }
+
+            &:last-child {
+                text-align: center;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+/* ==========================================================================
+   section 3
+   ========================================================================== */
+.rx-section-3 {
+    padding: 30% 4% 230px;
+    height: auto;
+
+    .rx-section-content {
+        min-width: 100%;
+    }
+
+    .rx-section-bottom {
+        padding: 20px 5% 10px;
+
+        .owl-theme .owl-controls {
+
+            .owl-buttons {
+
+
+
+                & > .owl-prev {
+                    margin-left: -15px;
+                }
+
+                & > .owl-next {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+   section mentors
+   ========================================================================== */
+.rx-section-mentors {
+    padding: 114px @sectionSidePaddingMobile;
+
+    .rx-section-content {
+        margin: 45px 7%;
+    }
+
+    .rx-mentors-list {
+        /*padding: 0 8px;*/
+        .rx-mentor-item {
+
+            .rx-mentor-item-active {
+                display: block;
+            }
+        }
+    }
+
+
+
+    .rx-mentor-bio {
+        display: none;
+    }
+}
+
+
+/* ==========================================================================
+   section signup
+   ========================================================================== */
+.rx-section-signup {
+    & > div {
+        width: 100%;
+    }
+
+    .rx-signup-info {
+        padding: 110px @sectionSidePaddingMobile;
+
+        &:after {
+            display: none;
+        }
+
+        .rx-section-title {
+            text-align: center;
+        }
+
+        .rx-section-content {
+            text-align: center;
+        }
+    }
+
+    .rx-signup-form {
+        padding: 40px;
+    }
+}
+
+
+/* ==========================================================================
+   footer
+   ========================================================================== */
+.rx-footer {
+    padding: 50px @sectionSidePaddingMobile;
+
+    .rx-footer-content {
+        & > div {
+            display: block;
+            float: none !important;
+            text-align: center !important;
+        }
+
+        .rx-footer-content-info {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+/* ==========================================================================
+   section signup modal
+   ========================================================================== */
+.rx-modal-signup {
+    .modal-dialog {
+        width: auto;
+    }
+
+    .modal-body {
+        margin: 5px;
+        padding: 10px;
+    }
+}
+/* ==========================================================================
+   section signup modal content
+   ========================================================================== */
+.rx-signup-modal-form-content {
+}

@@ -1,0 +1,157 @@
+﻿/* ==========================================================================
+   section's content 
+   ========================================================================== */
+.rx-section-content {
+  font-size: 20px;
+}
+/* ==========================================================================
+   section's titles 
+   ========================================================================== */
+h1.rx-section-title {
+  font-size: 32px;
+  letter-spacing: 0;
+}
+/* ==========================================================================
+   header 
+   ========================================================================== */
+.rx-header {
+  padding: 91px 4%;
+  height: 230px;
+}
+.rx-header > div {
+  width: 100%;
+  text-align: center;
+}
+.rx-header .rx-logo {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.rx-header .rx-logo img {
+  margin: 0 auto;
+}
+/* ==========================================================================
+   header  fixed after scroll
+   ========================================================================== */
+.rx-header-fixed {
+  padding: 58px 0 50px;
+}
+/* ==========================================================================
+   section 1(with video)
+   ========================================================================== */
+.rx-section-1 video {
+  display: none;
+}
+.rx-section-1 .rx-section-content {
+  padding: 0 4%;
+}
+/* ==========================================================================
+   section 2
+   ========================================================================== */
+.rx-section-2 {
+  padding: 80px 17px;
+}
+.rx-section-2 h1.rx-section-title {
+  padding: 0;
+}
+.rx-section-2 .rx-section-content {
+  margin-top: 50px;
+  display: inline-block;
+}
+.rx-section-2 .rx-section-content > div:first-child {
+  padding-right: 0;
+}
+.rx-section-2 .rx-section-content > div:first-child p {
+  padding-bottom: 30px;
+}
+.rx-section-2 .rx-section-content > div:last-child {
+  text-align: center;
+}
+.rx-section-2 .rx-section-content > div:last-child img {
+  width: 100%;
+}
+/* ==========================================================================
+   section 3
+   ========================================================================== */
+.rx-section-3 {
+  padding: 30% 4% 230px;
+  height: auto;
+}
+.rx-section-3 .rx-section-content {
+  min-width: 100%;
+}
+.rx-section-3 .rx-section-bottom {
+  padding: 20px 5% 10px;
+}
+.rx-section-3 .rx-section-bottom .owl-theme .owl-controls .owl-buttons > .owl-prev {
+  margin-left: -15px;
+}
+.rx-section-3 .rx-section-bottom .owl-theme .owl-controls .owl-buttons > .owl-next {
+  margin-right: 0;
+}
+/* ==========================================================================
+   section mentors
+   ========================================================================== */
+.rx-section-mentors {
+  padding: 114px 4%;
+}
+.rx-section-mentors .rx-section-content {
+  margin: 45px 7%;
+}
+.rx-section-mentors .rx-mentors-list {
+  /*padding: 0 8px;*/
+}
+.rx-section-mentors .rx-mentors-list .rx-mentor-item .rx-mentor-item-active {
+  display: block;
+}
+.rx-section-mentors .rx-mentor-bio {
+  display: none;
+}
+/* ==========================================================================
+   section signup
+   ========================================================================== */
+.rx-section-signup > div {
+  width: 100%;
+}
+.rx-section-signup .rx-signup-info {
+  padding: 110px 4%;
+}
+.rx-section-signup .rx-signup-info:after {
+  display: none;
+}
+.rx-section-signup .rx-signup-info .rx-section-title {
+  text-align: center;
+}
+.rx-section-signup .rx-signup-info .rx-section-content {
+  text-align: center;
+}
+.rx-section-signup .rx-signup-form {
+  padding: 40px;
+}
+/* ==========================================================================
+   footer
+   ========================================================================== */
+.rx-footer {
+  padding: 50px 4%;
+}
+.rx-footer .rx-footer-content > div {
+  display: block;
+  float: none !important;
+  text-align: center !important;
+}
+.rx-footer .rx-footer-content .rx-footer-content-info {
+  margin-bottom: 20px;
+}
+/* ==========================================================================
+   section signup modal
+   ========================================================================== */
+.rx-modal-signup .modal-dialog {
+  width: auto;
+}
+.rx-modal-signup .modal-body {
+  margin: 5px;
+  padding: 10px;
+}
+/* ==========================================================================
+   section signup modal content
+   ========================================================================== */
+/*# sourceMappingURL=rx-common.mobile.css.map */

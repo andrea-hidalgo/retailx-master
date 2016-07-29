@@ -1,0 +1,21 @@
+﻿/*
+@import this file directly into your existing Scss files to use these mixins
+*/
+@mixin sprite-Content-image-sprites-partner-logo-verizon() {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 34px;
+	background: url('partner-logos.png') -1px -1px;
+}
+@mixin sprite-Content-image-sprites-partner-logo-Walmart() {
+/* You may have to set 'display: block' */
+	width: 147px;
+	height: 36px;
+	background: url('partner-logos.png') -1px -36px;
+}
+@mixin sprite-Content-image-sprites-partner-logo-Sears() {
+/* You may have to set 'display: block' */
+	width: 121px;
+	height: 32px;
+	background: url('partner-logos.png') -1px -73px;
+}

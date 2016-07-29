@@ -1,0 +1,1430 @@
+﻿/*proxima Nova font family*/
+/*
+@import this file directly into your existing Less files to use these mixins
+*/
+* {
+  outline: none !important;
+}
+/*---- Override browser form-filling and input highlighting ----*/
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #ebebeb inset;
+  -webkit-text-fill-color: #000;
+}
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: ,0 0 0 25px #ebebeb inset;
+  -webkit-text-fill-color: #000;
+}
+.modal-body input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #ebebeb inset;
+  -webkit-text-fill-color: #000;
+}
+.modal-body input:-webkit-autofill:focus {
+  -webkit-box-shadow: ,0 0 0 25px #ebebeb inset;
+  -webkit-text-fill-color: #000;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  display: block;
+}
+ul li {
+  display: inline-block;
+}
+/* ==========================================================================
+   body 
+   ========================================================================== */
+.rx-body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  width: 100%;
+  height: 100%;
+}
+.rx-body h1,
+.rx-body h2,
+.rx-body h3,
+.rx-body h4,
+.rx-body h5,
+.rx-body h6 {
+  font-weight: 400;
+}
+/* ==========================================================================
+   section's titles 
+   ========================================================================== */
+h1.rx-section-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 46px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+/* ==========================================================================
+   section's content 
+   ========================================================================== */
+.rx-section-content {
+  font-size: 24px;
+}
+/* ==========================================================================
+   section's bottom part(with carousel)
+   ========================================================================== */
+.rx-section-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  padding: 10px 10%;
+}
+.rx-section-bottom .rx-bottom-title {
+  color: #ebc349;
+  font-size: 22px;
+  text-align: center;
+}
+.rx-section-bottom .rx-partner-logos {
+  width: 100%;
+}
+.rx-section-bottom .rx-partner-logos .rx-partner-logo-item {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.rx-section-bottom .rx-partner-logos .rx-partner-logo-item > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.rx-section-bottom .rx-partner-logos .owl-item {
+  display: table;
+}
+/* ==========================================================================
+   header 
+   ========================================================================== */
+.rx-header {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 50px 14%;
+  color: #fff;
+  height: 150px;
+  width: 100%;
+  z-index: 100;
+  -moz-transition: height ease-out 0.51s;
+  -o-transition: height ease-out 0.51s;
+  -webkit-transition: height ease-out 0.51s;
+  transition: height ease-out 0.51s;
+}
+.rx-header .rx-logo {
+  margin: 10px 0;
+  -moz-transition: margin ease 0.31s;
+  -o-transition: margin ease 0.31s;
+  -webkit-transition: margin ease 0.31s;
+  transition: margin ease 0.31s;
+}
+.rx-header .rx-header-nav ul li {
+  padding: 10px 25px;
+}
+.rx-header .rx-header-nav ul li a {
+  color: #fff;
+  font-weight: 100;
+}
+.rx-header .rx-header-nav ul li:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+.rx-header .rx-btn-apply {
+  opacity: 0;
+  visibility: hidden;
+  padding: 11px 24px;
+  -moz-transition: opacity ease-in 0.31s;
+  -o-transition: opacity ease-in 0.31s;
+  -webkit-transition: opacity ease-in 0.31s;
+  transition: opacity ease-in 0.31s;
+}
+/* ==========================================================================
+   header  fixed after scroll
+   ========================================================================== */
+.rx-header-fixed {
+  background-color: #000;
+  height: 130px;
+  padding: 40px 14%;
+}
+.rx-header-fixed .rx-logo {
+  margin-top: 15px;
+}
+.rx-header-fixed .rx-header-nav ul {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 11px;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+.rx-header-fixed .rx-btn-apply {
+  visibility: visible;
+  opacity: 1;
+  float: right;
+}
+/* ==========================================================================
+   section 1(with video)
+   ========================================================================== */
+.rx-section-1 {
+  background: url('images/bg-image-section1.png') no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  /*display: table;*/
+  overflow: hidden;
+}
+/*.rx-section-1 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  z-index: 1;
+  -moz-transition: 1s opacity;
+  -o-transition: 1s opacity;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+  height: 100%;
+  min-height: 100%;
+}
+*/
+.rx-section-1 .rx-section-content {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  width: 100%;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 14%;
+}
+.rx-section-1 .rx-section-content h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 41.7px;
+  letter-spacing: 5px;
+}
+.rx-section-1 .rx-section-content p {
+  margin-top: 40px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.rx-section-1 .rx-section-bottom {
+  background-color: rgba(255, 255, 255, 0.15);
+  z-index: 2;
+}
+.rx-section-1 .rx-section-bottom .rx-partner-logos .rx-partner-logo-item {
+  line-height: 110px;
+  height: 110px;
+}
+
+.rx-section-1 .rx-btn-apply {
+
+margin-top: 30px;
+}
+
+/* ==========================================================================
+   retail partner section
+   ========================================================================== */
+
+.rx-retail-section {
+    color: #fff;
+    background-color: #000;
+    width:100%;
+    padding: 50px 14%;
+}
+
+.rx-retail-section .rx-section-title {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 100;
+  font-size: 40px;
+}
+
+
+.retail-logo-group {
+  overflow: hidden;
+  margin: 10px;
+}
+
+.retail-logo-container{
+  float: left;
+  position: relative;
+  width:20%;
+  padding-bottom: 15%;
+  /*max-width:183px;
+  max-height:131px;*/
+  ;
+}
+
+.retail-logo {
+    position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+   overflow: hidden;
+    
+}
+
+.retail-logo img {
+  width:100%;
+}
+
+@media only screen and (max-width : 650px)  {
+   /* Tablet view: 2 tiles */
+   .retail-logo-container {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .retail-logo-container{
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (min-width : 1051px) {
+   /* Medium desktop: 5 tiles */
+   .retail-logo-container {
+      width: 20%;
+      padding-bottom: 20%;
+   }
+}
+
+
+/* ==========================================================================
+   section 2
+   ========================================================================== */
+.rx-section-2 {
+  color: #b7b7b7;
+  background-color: #fff;
+  width: 100%;
+  padding: 100px 14% 0px;
+}
+.rx-section-2 h1.rx-section-title {
+  padding: 0 10%;
+}
+.rx-section-2 .rx-section-content {
+  margin-top: 80px;
+  display: inline-block;
+}
+.rx-section-2 .rx-section-content > div {
+  text-align: left;
+  font-weight: 300;
+}
+.rx-section-2 .rx-section-content > div:first-child {
+  padding-right: 10%;
+}
+.rx-section-2 .rx-section-content > div:first-child p {
+  padding-bottom: 20px;
+}
+.rx-section-2 .rx-section-content > div:last-child {
+  padding-top: 20px;
+  height: 100%;
+  vertical-align: middle;
+  text-align: right;
+}
+.rx-section-2 .rx-section-content img {
+  width: 100%;
+}
+/* ==========================================================================
+   section 3
+   ========================================================================== */
+.rx-section-3 {
+  background-image: url('images/bg-image-block3.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  /*height: 1150px;*/
+  height:auto;
+  position: relative;
+  color: #fff;
+  padding: 100px 14% 0;
+}
+.rx-section-3 h1.rx-section-title {
+  padding: 0;
+}
+.rx-section-3 .rx-section-content {
+  margin: 50px auto 0;
+  text-align: center;
+  width: 75%;
+  min-width: 900px;
+}
+.rx-section-3 .rx-section-content p {
+  margin-bottom: 30px;
+}
+.rx-section-3 .rx-section-bottom {
+  padding: 50px 0 10px;
+  position: static;
+}
+.rx-section-3 .rx-section-bottom .rx-partner-logos {
+  margin-top: 20px;
+}
+.rx-section-3 .rx-section-bottom .rx-partner-logos .rx-partner-logo-item {
+  line-height: 110px;
+  height: 110px;
+}
+.rx-section-3 .rx-section-poweredby {
+  background-color: #1A282E;
+  padding: 40px 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.rx-section-3 .rx-section-poweredby h1 {
+  color: #97c751;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+}
+.rx-section-3 .rx-section-poweredby div {
+  text-align: center;
+}
+.rx-section-3 .rx-section-poweredby div span {
+  display: inline-block;
+}
+
+/* ==========================================================================
+   social feed section
+   ========================================================================== */
+
+
+.social-feed {
+  padding: 30px;
+}
+
+@media only screen and (max-width : px)  {
+   /* Tablet view padding */
+   .social-feed-right {
+      margin-top: 30px;
+   }
+}
+
+
+/* ==========================================================================
+   capability partner section
+   ========================================================================== */
+
+.rx-capability-section {
+    width:100%;
+    /*padding: 50px 14%;*/
+}
+
+.capability-logo-group {
+  overflow: hidden;
+  margin: 10px;
+}
+
+.capability-logo-container{
+  float: left;
+  position: relative;
+  width:20%;
+  padding-bottom: 15%;
+  /*max-width:183px;
+  max-height:131px;*/
+  ;
+}
+
+.capability-logo {
+    position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+   overflow: hidden;
+    
+}
+
+.capability-logo img {
+  width:100%;
+}
+
+@media only screen and (max-width : 650px)  {
+   /* Tablet view: 2 tiles */
+   .capability-logo-container {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .capability-logo-container{
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (min-width : 1051px) {
+   /* Medium desktop: 6 tiles */
+   .capability-logo-container {
+      width: 16.667%;
+      
+   }
+}
+
+/* ==========================================================================
+   section powered-by
+   ========================================================================== */
+
+.rx-section-poweredby {
+    background-color: #1A282E;
+    padding: 40px 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.rx-section-poweredby h1 {
+    color: #97c751;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.rx-section-poweredby div {
+    text-align: center;
+}
+
+/* ==========================================================================
+   section mentors
+   ========================================================================== */
+.rx-section-mentors {
+  padding: 114px 14%;
+  background-color: #fff;
+  color: #b7b7b7;
+}
+.rx-section-mentors .rx-section-title {
+  padding: 0 5%;
+}
+.rx-section-mentors .rx-section-content {
+  margin: 50px 7% 75px;
+  text-align: center;
+}
+.rx-section-mentors .rx-mentors-list .rx-mentor-item {
+  padding: 0 8px;
+}
+.rx-section-mentors .rx-mentors-list .rx-mentor-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.rx-section-mentors .rx-mentors-list .rx-mentor-item .rx-mentor-item-active {
+  display: none;
+  background-color: rgba(27, 40, 46, 0.5);
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  bottom: 0;
+  font-size: 18px;
+  padding-left: 15px;
+}
+.rx-section-mentors .rx-mentors-list .rx-mentor-item .rx-mentor-item-active .rx-mentor-name {
+  color: #fff;
+  font-weight: 800;
+  position: absolute;
+  bottom: 5px;
+}
+.rx-section-mentors .rx-mentors-list .rx-mentor-item .rx-mentor-item-active .rx-mentor-cat {
+  color: #ebc349;
+  position: absolute;
+  bottom: 0;
+}
+.rx-section-mentors .rx-mentors-list .rx-mentor-item .rx-mentor-item-active:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 17px;
+  right: 25px;
+  width: 11px;
+  height: 11px;
+  /*background: url('images/mentor-plus.png') no-repeat;*/
+}
+.rx-section-mentors .rx-mentors-list .owl-controls .owl-buttons > div {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35px;
+}
+.rx-section-mentors .rx-mentors-list .owl-controls .owl-buttons > div:after {
+  left: 36%;
+}
+.rx-section-mentors .rx-mentors-list .owl-controls .owl-buttons > div.owl-prev {
+  margin-left: 8px;
+}
+.rx-section-mentors .rx-mentors-list .owl-controls .owl-buttons > div.owl-prev:after {
+  /* You may have to set 'display: block' */
+  width: 12px;
+  height: 24px;
+  background: url('image-sprites/carousel-arrows.png') -1px -1px;
+}
+.rx-section-mentors .rx-mentors-list .owl-controls .owl-buttons > div.owl-next {
+  margin-right: 8px;
+}
+.rx-section-mentors .rx-mentors-list .owl-controls .owl-buttons > div.owl-next:after {
+  /* You may have to set 'display: block' */
+  width: 12px;
+  height: 24px;
+  background: url('image-sprites/carousel-arrows.png') -1px -53px;
+}
+.rx-section-mentors .rx-mentor-bio {
+  background-color: #24a6c4;
+  color: #fff;
+  padding: 35px 30px;
+  position: relative;
+  margin-top: 40px;
+  
+  /*z-index: 1;
+  position: absolute;
+    right: 5%;
+    left: 5%;
+    margin-top: 25%;
+    z-index: 1;*/
+
+}
+
+.closeButton {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.closeButton:hover,
+.closeButton:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.rx-section-mentors .rx-mentor-bio h3 {
+  font-size: 18px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.rx-section-mentors .rx-mentor-bio p {
+  font-size: 16px;
+  font-weight: 100;
+}
+.rx-section-mentors .rx-mentor-bio .rx-mentor-bio-arrow {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -25px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid #24a6c4;
+}
+
+/* ==========================================================================
+   section new mentor grid
+   ========================================================================== */
+
+.mentor-headshot-group {
+  overflow: hidden;
+  margin: 10px;
+}
+
+.mentor-container{
+  float: left;
+  position: relative;
+  width:20%;
+  padding-bottom: 10px;
+}
+
+.mentor-headshot {
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+   overflow: hidden;
+    
+}
+
+.mentor-headshot img {
+  width:100%;
+}
+
+@media only screen and (max-width : 650px)  {
+   /* Tablet view: 2 tiles */
+   .mentor-container {
+      width: 50%;
+      padding-bottom: 10px;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .mentor-container{
+      width: 33.3%;
+      padding-bottom: 10px;
+   }
+}
+@media only screen and (min-width : 1051px) {
+   /* Medium desktop: 6 tiles */
+   .mentor-container {
+      width: 20%%;
+      padding-bottom: 10px;
+   }
+}
+
+
+
+/* ==========================================================================
+   section heros
+   ========================================================================== */
+.rx-section-heros {
+  background-color: #ebebeb;
+  padding: 120px 14%;
+}
+.rx-section-heros .rx-section-heros-heading {
+  text-align: center;
+  color: #707070;
+  font-weight: 400;
+}
+.rx-section-heros .rx-section-heros-heading h2 {
+  color: #ebc349;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.rx-section-heros .rx-section-heros-heading h1 {
+  font-size: 46px;
+}
+.rx-section-heros .rx-section-heros-heading p {
+  font-size: 24px;
+}
+.rx-section-heros .rx-hero-items {
+  width: 60%;
+  margin: 80px auto 0;
+  min-width: 900px;
+}
+.rx-section-heros .rx-hero-items .owl-controls .owl-pagination .owl-page span {
+  background-color: #cccccc;
+}
+.rx-section-heros .rx-hero-items .owl-controls .owl-pagination .owl-page.active span {
+  background-color: #97c851;
+}
+.rx-section-heros .rx-hero-item > div:last-child {
+  text-align: left;
+  width: 70%;
+}
+.rx-section-heros .rx-hero-item .rx-hero-title {
+  color: #24a6c4;
+  font-size: 24px;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+.rx-section-heros .rx-hero-item .rx-hero-desc {
+  font-size: 16px;
+  color: #707070;
+  letter-spacing: 1px;
+}
+/* ==========================================================================
+   section signup
+   ========================================================================== */
+.rx-section-signup {
+  display: table;
+  width: 100%;
+}
+/*
+.rx-section-signup > div {
+  display: table-cell;
+  height: 100%;
+  width: 50%;
+  float: left;
+}*/
+.rx-section-signup .rx-signup-info {
+  background-color: #1b282e;
+  color: #fff;
+  padding: 180px 9%;
+  position: relative;
+}
+.rx-section-signup .rx-signup-info .rx-section-title {
+  text-align: center;
+}
+
+/*.rx-section-signup .rx-signup-info:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 47%;
+  right: -25px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #1b282e;
+}*/
+.rx-section-signup .rx-signup-info .rx-section-content {
+  margin-top: 37px;
+  text-align: center;
+}
+.rx-section-signup .rx-signup-info .rx-section-content p {
+  margin-bottom: 37px;
+}
+.rx-section-signup .rx-signup-info .rx-section-content a {
+  color: #fff;
+  font-weight: 800;
+}
+.rx-section-signup .rx-signup-form {
+  background-color: #fff;
+  padding: 5% 90px;
+  height: 690px;
+}
+.rx-section-signup .rx-signup-form .rx-signup-form-content {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.apply-now-form {
+  max-height: 2600px;
+}
+
+.rx-section-signup .modal-header {
+  background-color: #1b282e;
+  border:none;
+}
+
+.rx-section-signup .modal-body {
+  background: #1b282e;
+  border:none;
+}
+
+.rx-section-signup .modal-footer {
+  background: #1b282e;
+  border:none;
+}
+
+.rx-section-signup .close {
+  color:white;
+  zoom:2;
+}
+
+/* ==========================================================================
+   section lastCall modal
+   ========================================================================== */
+
+.rx-Lastcall .close {
+  font-size: 45px;
+  color:white;
+}
+
+.rx-Lastcall .modal-content {
+  background-color: transparent;
+  border:none;
+  box-shadow: none;
+}
+
+#lastCallImg {
+    height: auto; 
+    width: auto; 
+    max-width: 342px; 
+    max-height: 350px;
+    margin:25%;
+  }
+
+#lastCallModal {
+  margin:0px;
+  outline:none;
+}
+
+
+/* ==========================================================================
+   section signup modal
+   ========================================================================== */
+.rx-modal-signup .modal-content {
+  background-color: #1b292f;
+}
+.rx-modal-signup .modal-dialog {
+  width: 820px;
+}
+.rx-modal-signup .modal-body {
+  margin: 50px;
+  padding: 30px;
+  border: 1px solid #fff;
+}
+.rx-modal-signup .rx-btn-close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  opacity: 1;
+  font-size: 37px;
+  color: #ebc349;
+}
+/* ==========================================================================
+   section signup modal content
+   ========================================================================== */
+.rx-signup-modal-form-content {
+  color: #fff;
+  font-weight: 400;
+}
+.rx-signup-modal-form-content h1 {
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.rx-signup-modal-form-content label {
+  font-weight: 400 !important;
+}
+.rx-signup-modal-form-content hr {
+  border: 1px dashed #fff;
+  margin: 25px 0;
+}
+.rx-signup-modal-form-content .rx-form-group-title {
+  color: #97c751;
+  font-size: 16px;
+}
+.rx-signup-modal-form-content .rx-form-group-sub-title {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 100;
+}
+.rx-signup-modal-form-content .rx-signup-box {
+  border: 1px solid #fff;
+  padding: 20px;
+  margin: 15px 0;
+}
+.rx-signup-modal-form-content .rx-signup-textarea {
+  background-color: #1b292f;
+  border: 1px solid #272e31;
+  border-radius: 0;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+}
+.rx-signup-modal-form-content .rx-signup-textarea-white {
+  background-color: #1b292f;
+  border: 1px solid #fff;
+  border-radius: 0;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  height: 120px;
+}
+.rx-signup-modal-form-content .rx-btn-signup-submit {
+  width: 227px;
+}
+.rx-signup-modal-form-content .rx-signup-terms {
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  font-size: 15px;
+}
+.rx-signup-modal-form-content .rx-signup-terms a {
+  color: #fff;
+}
+.rx-signup-modal-form-content .modal-signup-thanku {
+  text-align: center;
+}
+.rx-signup-modal-form-content .modal-signup-thanku h2 {
+  margin-bottom: 50px;
+}
+.rx-checkbox {
+  display: none;
+}
+.rx-checkbox + label:before {
+  content: "";
+  display: inline-block;
+  border: 1px solid #fff;
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin-right: 20px;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+.rx-checkbox:checked + label:before {
+  background-color: #ebc349;
+  -moz-background-clip: content-box;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+/*-------------- vip radio buttons -----------*/
+.rx-radio-btn-container {
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 1.1em;
+  margin-left: 10px;
+}
+.rx-radio-label {
+  font-size: 14px;
+  margin-right: 30px;
+}
+.rx-radio-label:before {
+  content: "";
+  display: inline-block;
+  border: 1px solid #fff;
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin-right: 18px;
+  vertical-align: top;
+  border-radius: 50%;
+}
+.rx-radio {
+  display: none;
+}
+.rx-radio:checked + .rx-radio-label:before {
+  background-color: #ebc349;
+  -moz-background-clip: content-box;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+/* ==========================================================================
+   footer
+   ========================================================================== */
+.rx-footer {
+  padding: 50px 14%;
+  background-color: #000;
+}
+.rx-footer .rx-footer-content {
+  display: table;
+  width: 100%;
+}
+.rx-footer .rx-footer-content .rx-footer-content-info {
+  color: #fff;
+  text-align: center;
+}
+.rx-footer .rx-footer-content .rx-footer-content-info > p {
+  margin: 0;
+}
+.rx-footer .rx-footer-content .rx-footer-content-info > p:first-child {
+  font-weight: 800;
+  font-size: 22px;
+}
+/*.rx-footer .rx-footer-content .rx-footer-content-info > p:last-child {
+  font-size: 16px;
+  font-weight: 300;
+}
+.rx-footer .rx-footer-content .rx-footer-content-info > p:last-child a {
+  font-weight: 800;
+  color: #fff;
+}*/
+.rx-footer .rx-footer-content .rx-footer-content-faq {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 300;
+}
+.rx-footer .rx-footer-content .rx-footer-content-faq > p {
+  margin-top: 15px;
+}
+.rx-footer .rx-footer-content .rx-footer-content-faq a {
+  color: #fff;
+  text-decoration: underline;
+}
+.rx-footer .rx-footer-content .rx-footer-content-icons {
+  text-align: center;
+}
+.rx-footer .rx-footer-content .rx-footer-content-icons a {
+  display: inline-block;
+  margin: 10px;
+}
+/* ==========================================================================
+   buttons
+   ========================================================================== */
+.rx-btn-apply {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  background-color: rgba(151, 199, 81, 0.15);
+  border: 2px solid #97c751;
+  color: #97c751;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 14px 24px;
+}
+.rx-btn-submit {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #ebc349;
+  border: 1px solid #ebc349;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 20px;
+  width: 100%;
+}
+/* ==========================================================================
+   textbox
+   ========================================================================== */
+.rx-input {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  background-color: #ebebeb;
+  padding: 27px 20px;
+  border: 1px solid #ebebeb;
+  color: #000;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  font-size: 18px;
+  line-height: 20px;
+  width: 100%;
+}
+.rx-input::-webkit-input-placeholder {
+  color: #bfbfbf;
+  font-size: 18px;
+}
+.rx-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #bfbfbf;
+  font-size: 18px;
+}
+.rx-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #bfbfbf;
+  font-size: 18px;
+}
+.rx-input:-ms-input-placeholder {
+  color: #bfbfbf;
+  font-size: 18px;
+}
+.rx-input:focus {
+  border-color: #D6D3D3;
+}
+/*styles form mobile*/
+/*@import url("rx-commom.mobile") all and (max-width: 767px) ;*/
+/* ==========================================================================
+   carousel arrow styles
+   ========================================================================== */
+.owl-theme .owl-controls .owl-buttons > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.owl-theme .owl-controls .owl-buttons > div:after {
+  position: absolute;
+  top: 43%;
+}
+.owl-theme .owl-controls .owl-buttons > div.owl-prev {
+  left: 0;
+  margin-left: -30px;
+}
+.owl-theme .owl-controls .owl-buttons > div.owl-prev:after {
+  /* You may have to set 'display: block' */
+  width: 13px;
+  height: 26px;
+  background: url('image-sprites/carousel-arrows.png') -1px -26px;
+  content: '';
+  display: block;
+}
+.owl-theme .owl-controls .owl-buttons > div.owl-next {
+  right: 0;
+  margin-right: -15px;
+}
+.owl-theme .owl-controls .owl-buttons > div.owl-next:after {
+  content: '';
+  /* You may have to set 'display: block' */
+  width: 13px;
+  height: 26px;
+  background: url('image-sprites/carousel-arrows.png') -1px -78px;
+  display: block;
+}
+/* ==========================================================================
+   small desktop styles
+   ========================================================================== */
+@media only screen and (max-width: 885px) {
+  /* ==========================================================================
+   header 
+   ========================================================================== */
+  .rx-header .rx-header-nav ul {
+    display: none;
+  }
+  .rx-header .rx-header-nav .rx-btn-apply {
+    float: none;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .rx-section-3 .rx-section-content {
+    width: 100%;
+    min-width: 0;
+  }
+  .rx-section-3 .rx-section-bottom {
+    padding: 20px 0 10px;
+  }
+  .rx-section-heros {
+    padding: 120px 10px;
+  }
+  .rx-section-heros .rx-hero-items {
+    width: 70%;
+    min-width: 0;
+  }
+  .rx-section-heros .rx-hero-item > div:last-child {
+    width: 60%;
+  }
+}
+@media all and (max-width: 767px) {
+  /* ==========================================================================
+   section's content 
+   ========================================================================== */
+  .rx-section-content {
+    font-size: 20px;
+  }
+  /* ==========================================================================
+   section's titles 
+   ========================================================================== */
+  h1.rx-section-title {
+    font-size: 32px;
+    letter-spacing: 0;
+  }
+  /* ==========================================================================
+   header 
+   ========================================================================== */
+  .rx-header {
+    padding: 91px 4%;
+    height: 230px;
+  }
+  .rx-header > div {
+    width: 100%;
+    text-align: center;
+  }
+  .rx-header .rx-logo {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .rx-header .rx-logo img {
+    margin: 0 auto;
+  }
+  /* ==========================================================================
+   header  fixed after scroll
+   ========================================================================== */
+  .rx-header-fixed {
+    padding: 58px 0 50px;
+  }
+  /* ==========================================================================
+   section 1(with video)
+   ========================================================================== */
+  .rx-section-1 video {
+    display: none;
+  }
+  .rx-section-1 .rx-section-content {
+    padding: 0 4%;
+  }
+  /* ==========================================================================
+   section 2
+   ========================================================================== */
+  .rx-section-2 {
+    padding: 80px 17px;
+  }
+  .rx-section-2 h1.rx-section-title {
+    padding: 0;
+  }
+  .rx-section-2 .rx-section-content {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  .rx-section-2 .rx-section-content > div:first-child {
+    padding-right: 0;
+  }
+  .rx-section-2 .rx-section-content > div:first-child p {
+    padding-bottom: 30px;
+  }
+  .rx-section-2 .rx-section-content > div:last-child {
+    text-align: center;
+  }
+  .rx-section-2 .rx-section-content > div:last-child img {
+    width: 100%;
+  }
+  /* ==========================================================================
+   section 3
+   ========================================================================== */
+  .rx-section-3 {
+    padding: 30% 4% 230px;
+    height: auto;
+  }
+  .rx-section-3 .rx-section-content {
+    min-width: 100%;
+  }
+  .rx-section-3 .rx-section-bottom {
+    padding: 20px 5% 10px;
+  }
+  .rx-section-3 .rx-section-bottom .owl-theme .owl-controls .owl-buttons > .owl-prev {
+    margin-left: -15px;
+  }
+  .rx-section-3 .rx-section-bottom .owl-theme .owl-controls .owl-buttons > .owl-next {
+    margin-right: 0;
+  }
+  /* ==========================================================================
+   section mentors
+   ========================================================================== */
+  .rx-section-mentors {
+    padding: 114px 4%;
+  }
+  .rx-section-mentors .rx-section-content {
+    margin: 45px 7%;
+  }
+  .rx-section-mentors .rx-mentors-list {
+    /*padding: 0 8px;*/
+  }
+  .rx-section-mentors .rx-mentors-list .rx-mentor-item .rx-mentor-item-active {
+    display: block;
+  }
+  .rx-section-mentors .rx-mentor-bio {
+    display: none;
+  }
+
+  /* ==========================================================================
+   section signup
+   ========================================================================== */
+  .rx-section-signup > div {
+    width: 100%;
+  }
+  .rx-section-signup .rx-signup-info {
+    padding: 110px 4%;
+  }
+  .rx-section-signup .rx-signup-info:after {
+    display: none;
+  }
+  .rx-section-signup .rx-signup-info .rx-section-title {
+    text-align: center;
+  }
+  .rx-section-signup .rx-signup-info .rx-section-content {
+    text-align: center;
+  }
+  .rx-section-signup .rx-signup-form {
+    padding: 40px;
+  }
+  /* ==========================================================================
+   footer
+   ========================================================================== */
+  .rx-footer {
+    padding: 50px 4%;
+  }
+  .rx-footer .rx-footer-content > div {
+    display: block;
+    float: none !important;
+    text-align: center !important;
+  }
+  .rx-footer .rx-footer-content .rx-footer-content-info {
+    margin-bottom: 20px;
+  }
+  /* ==========================================================================
+   section signup modal
+   ========================================================================== */
+  .rx-modal-signup .modal-dialog {
+    width: auto;
+  }
+  .rx-modal-signup .modal-body {
+    margin: 5px;
+    padding: 10px;
+  }
+  /* ==========================================================================
+   section signup modal content
+   ========================================================================== */
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  /* ==========================================================================
+   section's titles 
+   ========================================================================== */
+  h1.rx-section-title {
+    font-size: 39px;
+    letter-spacing: 2px;
+  }
+  /* ==========================================================================
+   section's content 
+   ========================================================================== */
+  .rx-section-content {
+    font-size: 22px;
+  }
+  /* ==========================================================================
+   header 
+   ========================================================================== */
+  .rx-header {
+    padding: 50px 7%;
+  }
+  /* ==========================================================================
+   header  fixed after scroll
+   ========================================================================== */
+  .rx-header-fixed {
+    padding: 40px 7%;
+  }
+  /* ==========================================================================
+   section 2
+   ========================================================================== */
+  .rx-section-2 {
+    padding: 100px 7% 0;
+  }
+  .rx-section-2 .rx-section-content {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  .rx-section-2 .rx-section-content img {
+    width: 100%;
+  }
+  /* ==========================================================================
+   section 3
+   ========================================================================== */
+  .rx-section-3 {
+    padding: 50px 7%;
+  }
+  .rx-section-3 .rx-section-content {
+    min-width: 100%;
+  }
+  /* ==========================================================================
+   section signip
+   ========================================================================== */
+  .rx-section-signup .rx-signup-info {
+    padding: 120px 9%;
+  }
+  /* ==========================================================================
+   section heros
+   ========================================================================== */
+  .rx-section-heros {
+    background-color: #ebebeb;
+    padding: 120px 7%;
+  }
+  .rx-section-heros .rx-hero-items {
+    width: 80%;
+    min-width: 100%;
+  }
+  .rx-section-heros .rx-hero-item > div:last-child {
+    width: 60%;
+  }
+  /* ==========================================================================
+   section bottom
+   ========================================================================== */
+  .rx-section-bottom .rx-bottom-title {
+    font-size: 21px;
+  }
+}
+/*# sourceMappingURL=rx-common.css.map */

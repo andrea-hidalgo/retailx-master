@@ -1,0 +1,39 @@
+{
+  "images": [
+    {
+      "name": "/Content/image-sprites/partner-col-logo-Capsule.png",
+      "width": 184,
+      "height": 66,
+      "offsetX": 1,
+      "offsetY": 1
+    },
+    {
+      "name": "/Content/image-sprites/partner-col-logo-DragonInnovation.png",
+      "width": 184,
+      "height": 66,
+      "offsetX": 1,
+      "offsetY": 68
+    },
+    {
+      "name": "/Content/image-sprites/partner-col-logo-FBT.png",
+      "width": 184,
+      "height": 66,
+      "offsetX": 1,
+      "offsetY": 135
+    },
+    {
+      "name": "/Content/image-sprites/partner-col-logo-GO.png",
+      "width": 184,
+      "height": 66,
+      "offsetX": 1,
+      "offsetY": 202
+    },
+    {
+      "name": "/Content/image-sprites/partner-col-logo-Spotlight.png",
+      "width": 184,
+      "height": 66,
+      "offsetX": 1,
+      "offsetY": 269
+    }
+  ]
+}

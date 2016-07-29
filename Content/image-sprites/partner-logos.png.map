@@ -1,0 +1,25 @@
+{
+  "images": [
+    {
+      "name": "/Content/image-sprites/partner-logo-verizon.png",
+      "width": 150,
+      "height": 34,
+      "offsetX": 1,
+      "offsetY": 1
+    },
+    {
+      "name": "/Content/image-sprites/partner-logo-Walmart.png",
+      "width": 147,
+      "height": 36,
+      "offsetX": 1,
+      "offsetY": 36
+    },
+    {
+      "name": "/Content/image-sprites/partner-logo-Sears.png",
+      "width": 121,
+      "height": 32,
+      "offsetX": 1,
+      "offsetY": 73
+    }
+  ]
+}

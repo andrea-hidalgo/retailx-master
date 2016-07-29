@@ -1,0 +1,27 @@
+﻿/*
+@import this file directly into your existing Scss files to use these mixins
+*/
+@mixin sprite-Content-image-sprites-carousel-left-arrow-white() {
+/* You may have to set 'display: block' */
+	width: 12px;
+	height: 24px;
+	background: url('carousel-arrows.png') -1px -1px;
+}
+@mixin sprite-Content-image-sprites-carousel-left-arrow() {
+/* You may have to set 'display: block' */
+	width: 13px;
+	height: 26px;
+	background: url('carousel-arrows.png') -1px -26px;
+}
+@mixin sprite-Content-image-sprites-carousel-right-arrow-white() {
+/* You may have to set 'display: block' */
+	width: 12px;
+	height: 24px;
+	background: url('carousel-arrows.png') -1px -53px;
+}
+@mixin sprite-Content-image-sprites-carousel-right-arrow() {
+/* You may have to set 'display: block' */
+	width: 13px;
+	height: 26px;
+	background: url('carousel-arrows.png') -1px -78px;
+}

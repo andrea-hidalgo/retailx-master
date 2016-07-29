@@ -1,0 +1,33 @@
+﻿/*
+@import this file directly into your existing Scss files to use these mixins
+*/
+@mixin sprite-Content-image-sprites-partner-col-logo-startups() {
+/* You may have to set 'display: block' */
+	width: 171px;
+	height: 27px;
+	background: url('partner-col-logos.png') -1px -1px;
+}
+@mixin sprite-Content-image-sprites-partner-col-logo-CES() {
+/* You may have to set 'display: block' */
+	width: 283px;
+	height: 90px;
+	background: url('partner-col-logos.png') -1px -29px;
+}
+@mixin sprite-Content-image-sprites-partner-col-logo-Dragon() {
+/* You may have to set 'display: block' */
+	width: 171px;
+	height: 85px;
+	background: url('partner-col-logos.png') -1px -120px;
+}
+@mixin sprite-Content-image-sprites-partner-col-logo-Ingram() {
+/* You may have to set 'display: block' */
+	width: 171px;
+	height: 27px;
+	background: url('partner-col-logos.png') -1px -206px;
+}
+@mixin sprite-Content-image-sprites-partner-col-logo-Sprosty-Network() {
+/* You may have to set 'display: block' */
+	width: 172px;
+	height: 46px;
+	background: url('partner-col-logos.png') -1px -234px;
+}

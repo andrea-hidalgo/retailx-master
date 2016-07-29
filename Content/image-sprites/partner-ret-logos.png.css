@@ -1,0 +1,33 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.partner-col-logo-Capsule {
+/* You may have to set 'display: block' */
+	width: 184px;
+	height: 66px;
+	background: url('partner-ret-logos.png') -1px -1px;
+}
+.partner-col-logo-DragonInnovation {
+/* You may have to set 'display: block' */
+	width: 184px;
+	height: 66px;
+	background: url('partner-ret-logos.png') -1px -68px;
+}
+.partner-col-logo-FBT {
+/* You may have to set 'display: block' */
+	width: 184px;
+	height: 66px;
+	background: url('partner-ret-logos.png') -1px -135px;
+}
+.partner-col-logo-GO {
+/* You may have to set 'display: block' */
+	width: 184px;
+	height: 66px;
+	background: url('partner-ret-logos.png') -1px -202px;
+}
+.partner-col-logo-Spotlight {
+/* You may have to set 'display: block' */
+	width: 184px;
+	height: 66px;
+	background: url('partner-ret-logos.png') -1px -269px;
+}

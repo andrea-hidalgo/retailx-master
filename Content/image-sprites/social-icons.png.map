@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "name": "/Content/image-sprites/social-Linkedin-icon.png",
+      "width": 30,
+      "height": 29,
+      "offsetX": 1,
+      "offsetY": 1
+    },
+    {
+      "name": "/Content/image-sprites/social-Twitter-icon.png",
+      "width": 33,
+      "height": 28,
+      "offsetX": 1,
+      "offsetY": 31
+    }
+  ]
+}

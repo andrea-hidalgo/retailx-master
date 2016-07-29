@@ -1,0 +1,15 @@
+﻿/*
+@import this file directly into your existing Scss files to use these mixins
+*/
+@mixin sprite-Content-image-sprites-social-Linkedin-icon() {
+/* You may have to set 'display: block' */
+	width: 30px;
+	height: 29px;
+	background: url('social-icons.png') -1px -1px;
+}
+@mixin sprite-Content-image-sprites-social-Twitter-icon() {
+/* You may have to set 'display: block' */
+	width: 33px;
+	height: 28px;
+	background: url('social-icons.png') -1px -31px;
+}

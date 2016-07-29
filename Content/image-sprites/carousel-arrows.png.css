@@ -1,0 +1,27 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.carousel-left-arrow-white {
+/* You may have to set 'display: block' */
+	width: 12px;
+	height: 24px;
+	background: url('carousel-arrows.png') -1px -1px;
+}
+.carousel-left-arrow {
+/* You may have to set 'display: block' */
+	width: 13px;
+	height: 26px;
+	background: url('carousel-arrows.png') -1px -26px;
+}
+.carousel-right-arrow-white {
+/* You may have to set 'display: block' */
+	width: 12px;
+	height: 24px;
+	background: url('carousel-arrows.png') -1px -53px;
+}
+.carousel-right-arrow {
+/* You may have to set 'display: block' */
+	width: 13px;
+	height: 26px;
+	background: url('carousel-arrows.png') -1px -78px;
+}

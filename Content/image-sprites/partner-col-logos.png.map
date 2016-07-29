@@ -1,0 +1,39 @@
+{
+  "images": [
+    {
+      "name": "/Content/image-sprites/partner-col-logo-startups.png",
+      "width": 171,
+      "height": 27,
+      "offsetX": 1,
+      "offsetY": 1
+    },
+    {
+      "name": "/Content/image-sprites/partner-col-logo-CES.png",
+      "width": 283,
+      "height": 90,
+      "offsetX": 1,
+      "offsetY": 29
+    },
+    {
+      "name": "/Content/image-sprites/partner-col-logo-Dragon.png",
+      "width": 171,
+      "height": 85,
+      "offsetX": 1,
+      "offsetY": 120
+    },
+    {
+      "name": "/Content/image-sprites/partner-col-logo-Ingram.png",
+      "width": 171,
+      "height": 27,
+      "offsetX": 1,
+      "offsetY": 206
+    },
+    {
+      "name": "/Content/image-sprites/partner-col-logo-Sprosty-Network.png",
+      "width": 172,
+      "height": 46,
+      "offsetX": 1,
+      "offsetY": 234
+    }
+  ]
+}
